@@ -1,0 +1,22 @@
+# Ignore virtual environments
+venv/
+flask_api/venv/
+__pycache__/
+*.pyc
+
+# Node modules (for frontend)
+node_modules/
+frontend/node_modules/
+
+# React build output
+frontend/build/
+
+# OS files
+.DS_Store
+
+# Python and logs
+*.log
+
+# AWS/Zappa
+*.zip
+.zappa/
