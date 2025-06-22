@@ -1,22 +1,22 @@
-# Ignore virtual environments
+# Python virtual environments
 venv/
 flask_api/venv/
+
+# Python bytecode
 __pycache__/
 *.pyc
 
-# Node modules (for frontend)
-node_modules/
-frontend/node_modules/
-
-# React build output
-frontend/build/
-
-# OS files
-.DS_Store
-
-# Python and logs
+# Logs
 *.log
 
-# AWS/Zappa
+# OS-specific files
+.DS_Store
+
+# AWS / Zappa artifacts
 *.zip
 .zappa/
+zappa_settings.json
+__init__.py  # optional, if generated in Lambda folders
+
+# VSCode settings (optional)
+.vscode/
